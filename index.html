@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Reset-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+
+    <!--Fonts-->
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="bg">
+        <div class="container-fluid header justify-content-center">
+            <!-- <h1 class="text-danger text-center">Avenger's Trivia</h1> -->
+            <img class="mx-auto d-block title-image img-fluid" src="https://fontmeme.com/permalink/180619/164ab6dd0c54db85f8dadfbc9c52e299.png"
+                alt="Avenger's Trivia">
+            <div class="row d-flex justify-content-center">
+                <button class="btn btn-danger my-auto" id="startBtn">Avenger's Assemble</button>
+            </div>
+        </div>
+        <div class="container-fluid main-content">
+
+            <!--Questions-->
+            <div id="timeLeft"></div>
+            <div id="currentQuestion"></div>
+            <div class="question"></div>
+            <div class="answerChoices"></div>
+            <!--Answer Page-->
+            <div id="message"></div>
+            <div id="correctedAnswer"></div>
+            <div id="image"></div>
+            <!--Scoreboard-->
+            <div id="finalMessage"></div>
+            <div id="correctAnswers"></div>
+            <div id="incorrectAnswers"></div>
+            <div id="unanswered"></div>
+            <div id="startOverBtn"></div>
+        </div>
+
+
+        <!-- <div class = "row">
+        <div class="col-md-12 title text-center">
+            <h1>The Avenger's Trivia</h1>  
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+        <button class='btn-danger game-button'>Avenger's Assemble</button>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12 timer-div text-center page-text"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 question-div text-center page-text"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 content-div text-center">
+
+        </div>
+    </div> 
+</div> -->
+
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <!--Javascript-->
+        <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+body,
+html {
+    height: 100%;
+    background-image: url("../images/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Teko', sans-serif;
+}
+
+.title-image {
+    background-color: black;
+    margin: 10px;
+}
+.header {
+    margin: 15px;
+}
+
+.main-content {
+    /* background-color: aliceblue; */
+    background: rgb(204, 204, 204); 
+    background: rgba(204, 204, 204, 0.8);
+
+    /* opacity: 0.8; */
+    /* z-index: -1; */
+}
+
+.answerChoices {
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+}
+
+#message, #finalMessage {
+    font-size: 50px;
+    color: #150247;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.thisChoice:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.image {
+    padding: 25px 0 25px 0;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+#correctedAnswer, #incorrectAnswers {
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    color: red; 
+}
+#correctAnswers {
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    color:darkgreen;
+}
+#unanswered {
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+}
