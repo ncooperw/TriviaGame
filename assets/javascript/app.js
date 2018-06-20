@@ -81,6 +81,7 @@ $(document).ready(function () {
 
     $("#startBtn").on("click", function () {
         $(this).hide();
+        $(".instruction").hide();
         newGame();
     });
     $("#startOverBtn").on("click", function () {
